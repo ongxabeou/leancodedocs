@@ -1,6 +1,12 @@
 site_name: LeanCode Docs
-site_url: http://localhost:4200/
+site_url: http://localhost:4200/doc/
 nav:
-    - Home: index.md
-    - About: about.md
-theme: readthedocs
+    - About: index.md
+    - Getting started: getting-started.md
+    - User Interface Manual: ui-manual.md
+    - Component Configuration: component-configuration.md
+    
+theme: 
+    name: readthedocs
+    locale: en
+    highlightjs: true
